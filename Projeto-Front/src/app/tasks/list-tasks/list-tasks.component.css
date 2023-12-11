@@ -1,0 +1,60 @@
+.div-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-padding {
+    padding: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-custom-primary {
+    padding: 10px;    
+    background-color: #f75f00;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #f75f00;
+}
+
+.btn-custom-second {
+    padding: 10px;
+    width: 100px;
+    border-color: #f75f00;
+    color: #f75f00;
+    border-radius: 10px;
+    border: 2px solid #f75f00;
+}
+
+.btn-custom-delete {
+    padding: 10px;    
+    background-color: #eee6e6;
+    color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.btn-custom-edit {
+    padding: 10px;    
+    background-color: #f0f4ff;
+    color: #003194;
+    border-radius: 10px;
+    border: 2px solid #003194;
+}
+
+.panel-primary {
+    background-color: #f75f0012;
+}
+
+.panel-border {
+    border-color: #f75f00;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.text-primary-color {
+    color: #f75f00;
+}

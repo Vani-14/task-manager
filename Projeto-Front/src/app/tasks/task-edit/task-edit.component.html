@@ -1,0 +1,43 @@
+<div class="col-md-12 container">
+    <div class="panel panel-default panel-border">
+        <div class="panel-heading panel-primary">
+            <h1 class="text-primary-color">Edição de Tarefa</h1>
+        </div>
+        <div class="panel-body">
+            <div class="col-md-12">
+                <form #formTask="ngForm">
+                    <div class="col-md-12">
+                        <div class="col-md-2">
+                            <label class="text-primary-color">Descrição: </label>
+                        </div>
+                        <div class="col-md-6">
+                            <input 
+                            type="text" 
+                            name="descricao"
+                            class="form-control"
+                            [(ngModel)]="task.description"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-12 div-row">
+                        <div class="col-md-2 col-xs-12 div-row align-center">
+                            <input class="btn btn-success btn-custom-primary" type="submit"
+                            (click)="updateTask()"
+                            value="Salvar"
+                            />                    
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-2 div-row align-center">
+                                <a class="btn btn-default btn-custom-second"
+                                [routerLink]="['/tarefas/listar']"
+                                >
+                                    Voltar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
